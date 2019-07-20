@@ -1,0 +1,32 @@
+
+body {
+  margin: 0;
+  background-color: #bbb;
+  overflow-x: hidden;
+}
+
+.topbar {
+  height: 50px;
+  width: 100vw;
+  background-color: #333;
+  margin-bottom: 1px;
+}
+
+.face {
+  height: 100vh;
+  width: 100vw;
+  background-color: #333;
+  background-image: url("./img/poster.jpeg");
+  background-size:cover;
+}
+
+.torso {
+  min-height: 400px;
+  width: 100vw;
+  background-color: #fff;
+}
+.foot {
+  min-height: 300px;
+  width: 100vw;
+  background-color: #444;
+}
